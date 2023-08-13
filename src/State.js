@@ -1,4 +1,5 @@
 import {useState} from "react";
+import styles from './State.module.css'
 
 export const State = (props) => {
     const [count, setCount] = useState(0);
@@ -21,14 +22,14 @@ export const State = (props) => {
     }
 
     return (
-        <div>
 
-            <h1 style={{color: "red"}}>{title}</h1>
-            <p>{price}</p>
-            <p>{props.name}</p>
+        <div className={styles.container}>
+
+            <h1 className={title==='Big Counter' ? styles.titleBig : styles.titleLarge} >{title}</h1>
+            <p className={styles.price}>{price}</p>
+            <p className={styles.name}>{props.name}</p>
 
             <button style={{fontSize: 50 + "px"}} onClick={clickHandler}> Click: {count}</button>
-
 
         </div>
     )

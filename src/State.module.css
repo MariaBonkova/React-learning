@@ -1,0 +1,24 @@
+.title{
+    color: #0d95e8;
+}
+.titleBig{
+    color: red;
+}
+.titleLarge{
+    color: greenyellow;
+}
+.price{
+    font-family: Arial;
+    display: block;
+    font-size: 50px;
+    color: blue;
+}
+.name{
+    display: block;
+    font-size: 50px;
+    color: deeppink;
+}
+.container{
+   border: #0b0b0c;
+    padding-left: 200px;
+}

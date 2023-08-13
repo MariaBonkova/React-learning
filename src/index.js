@@ -11,7 +11,7 @@ root.render(
   <div>
       <App />
       <State price={12} name='pesho'/>
-      <Clicker num={0}/>
+      <Clicker />
       <Timer/>
   </div>
 
